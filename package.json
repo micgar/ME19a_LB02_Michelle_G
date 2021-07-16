@@ -1,0 +1,19 @@
+{
+  "author": "michellegardi@gmx.ch",
+  "dependencies": {
+    "nodemon": "2.0.7",
+    "express": "4.17.1",
+    "uuid": "8.3.1",
+    "body-parser": "^1.19.0"
+  },
+  "description": "Contractor",
+  "keywords": [
+    "javascript",
+    "informatik",
+    "servervalidierung"
+  ],
+  "licence": "ISC",
+  "main": "script.js",
+  "name": "lb02",
+  "version": "1.0.0"
+}

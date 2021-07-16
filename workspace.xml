@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51df59d4-3579-415d-9353-bfdb7be18219" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1ulVASIMtWeOuc8h2VIEDkIlGy3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51df59d4-3579-415d-9353-bfdb7be18219" name="Default Changelist" comment="" />
+      <created>1625240020065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625240020065</updated>
+      <workItem from="1625240021975" duration="228000" />
+      <workItem from="1625665571290" duration="1443000" />
+      <workItem from="1625925065718" duration="5902000" />
+      <workItem from="1625939164476" duration="2422000" />
+      <workItem from="1626019462696" duration="1680000" />
+      <workItem from="1626108986447" duration="13733000" />
+      <workItem from="1626161377868" duration="4615000" />
+      <workItem from="1626188845789" duration="604000" />
+      <workItem from="1626444954498" duration="199000" />
+      <workItem from="1626445184346" duration="752000" />
+      <workItem from="1626445960866" duration="1197000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

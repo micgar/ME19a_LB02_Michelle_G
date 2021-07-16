@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="validate.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Feedbackformular</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="bilder/logo2.png">
+  <link href="https://fonts.googleapis.com/css?family=Exo:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+</head>
+<body class="indexbody" onload="onLoad()">
+  <header>
+    <div class="flex"
+      <h1>Feedback zum Tauchkurs "Water Perspective"</h1>
+      <img src="bilder/logo.png" width="5%" length= "5%" alt="Logo">
+    </div>
+  </header>
+  <main>
+    <div class="error">
+      <form name="myForm" onsubmit="checkFirstName()" onsubmit="checkLastName()" onsubmit="checkEmail()" onsubmit="checkPassword()" onsubmit="checkAgb()" method="post">
+        <p>
+          Ansprache
+          <select name="ansprache">
+          <option value="val2" selected>Andere</option>
+          <option value="val3" selected>Herr</option>
+          <option value="val1">Frau</option>
+          </select>
+        </p>
+        <p>
+          Vorname
+          <br>
+          <input type="text" id="firstName" name="firstName" size="30" maxlength="40" onchange="checkFirstName()">
+        </p>
+        <p>
+          Nachname
+          <br>
+          <input type="text" id="lastName" name="lastName" size="30" maxlength="40" onchange="checkLastName()">
+          </p>
+        <p>
+          E-Mail Adresse
+          <br>
+          <input type="text" id="email" name="email" size="30" maxlength="40" onchange="checkEmail()">
+        </p>
+	<p>
+          Passwort
+          <br>
+          <input type="password" id="password" name="password" size="30" maxlength="40" onchange="checkPassword()">
+        </p>
+        <br>
+        <p>
+          Welchen Kurs haben Sie besucht?
+          <br>
+          <br>
+          <input type="radio" name="room" value="ja">Anfängerkurs
+          <br>
+          <input type="radio" name="room" value="nein">Kurs für Fortgeschrittene
+          <br>
+          <input type="radio" name="room" value="nein">Kurs für Experten
+        <br>
+
+        <p>
+        Ich bin einverstanden, dass meine Daten für zwei Jahre gespeichert und nicht mit Dritten geteilt werden.
+        <br>
+          <input type="checkbox" name="extra" id="c1" value="agb" onchange="checkAgb()">
+          <label for="c1"> </label>
+        </p>
+
+	<span id=error> </span>
+
+
+        <br>
+          <div class="btns">
+            <input type="text" name="gotcha" value="" style="display:none;">
+            <input type="submit" id="submit" onclick="checkFirstName()" onclick="checkLastName()" onclick="checkEmail()" onclick="checkPassword()" onclick="checkAgb()" value="Absenden">
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+
+    </footer>
+  </body>
+</html>
